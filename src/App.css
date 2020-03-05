@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Potra';
+	src: local('Potra'), url(Potra.ttf) format('truetype');
+}
+
+h1 {
+	font-family: 'Potra';
+	font-weight: bold;
+	color: #A9AFD1;
+}
