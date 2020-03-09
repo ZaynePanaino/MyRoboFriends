@@ -3,6 +3,7 @@ import CardList from './CardList';
 import SearchBox from './SearchBox';
 import Scroll from './Scroll';
 import ErrorBoundry from './ErrorBoundry'
+import Loading from "./Loading.js" 
 import './App.css';
 
 class App extends Component {
@@ -30,7 +31,9 @@ class App extends Component {
 			return robot.name.toLowerCase().includes(searchfield.toLowerCase());
 		})
 		return !robots.length ?
-			<h1 className 'tc'>Loading...</h1>:
+			<h1 className='tc'>
+			Loading...
+			</h1>
 			(
 				<div className='tc'>
 					<h1 className= 'f1'>RoboFriends</h1>
